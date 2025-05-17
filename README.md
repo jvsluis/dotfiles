@@ -15,8 +15,9 @@ If using WSL, you will need:
 - xclip
 
 ## Font
-The font I use is Terminus with the nerd font patch. You can get it here:
+The font I use is either Terminus or Gohu with the nerd font patch. You can get them here:
 [Terminus Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Terminus.zip)
+[Gohu Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Gohu.zip)
 
 ## Usage
 - clone the repo
