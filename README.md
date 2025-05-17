@@ -9,6 +9,10 @@ My personal dotfiles setup. My setup is geared towards C/C++/python development.
 - nvim
 - stow
 - tmux
+- ripgrep
+
+If using WSL, you will need:
+- xclip
 
 ## Font
 The font I use is Terminus with the nerd font patch. You can get it here:
