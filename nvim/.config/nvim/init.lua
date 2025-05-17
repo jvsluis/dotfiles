@@ -44,7 +44,8 @@ vim.o.scrolloff = 8
 -- Custom bindings
 vim.keymap.set('n', '<Leader>t', '<cmd>NvimTreeToggle<CR>')
 vim.keymap.set('n', '<Leader>e', '<cmd>NvimTreeFocus<CR>')
-vim.keymap.set('n', '<Leader>ff', '<cmd>Telescope<CR>')
+vim.keymap.set('n', '<Leader>fe', '<cmd>Telescope<CR>')
+vim.keymap.set('n', '<Leader>ff', '<cmd>Telescope find_files<CR>')
 vim.keymap.set('n', '<Leader>gg', '<cmd>LazyGit<CR>')
 -- vim.keymap.set('n', '<leader>cm', function() os.execute(vim.loop.cwd() + '') end)
 
