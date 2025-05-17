@@ -46,6 +46,19 @@ vim.keymap.set('n', '<Leader>t', '<cmd>NvimTreeToggle<CR>')
 vim.keymap.set('n', '<Leader>e', '<cmd>NvimTreeFocus<CR>')
 vim.keymap.set('n', '<Leader>ff', '<cmd>Telescope<CR>')
 vim.keymap.set('n', '<Leader>gg', '<cmd>LazyGit<CR>')
+-- vim.keymap.set('n', '<leader>cm', function() os.execute(vim.loop.cwd() + '') end)
+
+-- Some custom cmake related code
+local function project_cmake_build()
+  local build_cmd = 'cmake --build ' .. vim.loop.cwd() .. '/build';
+  local handle = io.popen(build_cmd)
+  local result = handle:read("*a")
+  handle:close()
+
+  -- Display the output at the bottom of the Neovim window
+  vim.notify(result, vim.log.levels.INFO)
+end
+vim.keymap.set('n', '<leader>cm', project_cmake_build, { desc = 'Build current project' })
 
 -- Auto format
 vim.api.nvim_create_autocmd("BufWritePre", {
