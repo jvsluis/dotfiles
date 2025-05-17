@@ -26,14 +26,16 @@ require("lazy").setup("plugins")
 
 -- Set colour
 vim.opt.termguicolors = true
-vim.cmd [[colorscheme darkblue]]
+vim.cmd [[colorscheme zellner]]
+-- vim.cmd [[colorscheme delek]]
+-- vim.cmd [[colorscheme darkblue]]
 -- vim.cmd [[colorscheme solarized8]]
 
 -- Set some editor specifics
 vim.wo.number = true
 vim.opt.colorcolumn = "80"
 -- If blue theme:
-vim.cmd [[highlight ColorColumn ctermbg=blue guibg=blue]]
+-- vim.cmd [[highlight ColorColumn ctermbg=blue guibg=blue]]
 -- If solarized8:
 -- vim.cmd [[highlight ColorColumn ctermbg=16]]
 vim.o.signcolumn = "yes"
