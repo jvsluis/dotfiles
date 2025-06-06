@@ -26,7 +26,8 @@ require("lazy").setup("plugins")
 
 -- Set colour
 vim.opt.termguicolors = true
-vim.cmd [[colorscheme gedit]]
+vim.cmd [[colorscheme dayfox]]
+-- vim.cmd [[colorscheme gedit]]
 -- vim.cmd [[colorscheme delek]]
 -- vim.cmd [[colorscheme darkblue]]
 -- vim.cmd [[colorscheme solarized8]]

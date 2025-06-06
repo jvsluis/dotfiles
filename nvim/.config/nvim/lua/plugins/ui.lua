@@ -12,6 +12,9 @@ return {
     "yorickpeterse/vim-paper"
   },
   {
+    "EdenEast/nightfox.nvim"
+  },
+  {
     "jvsluis/gedit.nvim"
   },
 }
