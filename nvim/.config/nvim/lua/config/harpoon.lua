@@ -5,7 +5,7 @@ harpoon:setup()
 -- Custom harpoon keybindings
 vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = 'Add Harpoon Buffer' })
 vim.keymap.set("n", "<leader>ft", function() harpoon.ui:toggle_telescope(harpoon:list()) end, { desc = 'Harpoon Telescope' })
-vim.keymap.set("n", "<leader>fh", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = 'Harpoon Quick Menu' })
+vim.keymap.set("n", "<leader>jf", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = 'Harpoon Quick Menu' })
 vim.keymap.set("n", "<leader>1", function() harpoon:list():select(1) end, { desc = 'Harpoon Buffer 1' })
 vim.keymap.set("n", "<leader>2", function() harpoon:list():select(2) end, { desc = 'Harpoon Buffer 2' })
 vim.keymap.set("n", "<leader>3", function() harpoon:list():select(3) end, { desc = 'Harpoon Buffer 3' })

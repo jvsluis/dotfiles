@@ -1,6 +1,7 @@
 {
   "better-escape.vim": { "branch": "master", "commit": "6b16a45a839727977277f6ab11bded63e9ed86bb" },
   "blink.cmp": { "branch": "main", "commit": "022521a8910a5543b0251b21c9e1a1e989745796" },
+  "cmake-tools.nvim": { "branch": "master", "commit": "d4eb7638f6048a1701dedb0cf3891e7238ec3ce1" },
   "gedit.nvim": { "branch": "main", "commit": "8b96d766a7a18af9c01efd1181a1186438f9a2f1" },
   "gitsigns.nvim": { "branch": "main", "commit": "d0f90ef51d4be86b824b012ec52ed715b5622e51" },
   "harpoon": { "branch": "harpoon2", "commit": "ed1f853847ffd04b2b61c314865665e1dadf22c7" },
@@ -22,5 +23,7 @@
   "vim-mac-classic-theme": { "branch": "master", "commit": "8bf9e3d96a0988849e8dd9954d443857191c8639" },
   "vim-paper": { "branch": "main", "commit": "d8decc44569aec6247bae54d971e658bb8108399" },
   "vim-solarized8": { "branch": "master", "commit": "2f31fc2239c965d7dd9754ba8160582c99211e12" },
-  "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
+  "vscode.nvim": { "branch": "main", "commit": "57cec1509bfb57dfc3c4d5ba5e8db9a5b5e42be2" },
+  "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" },
+  "zen-mode.nvim": { "branch": "main", "commit": "863f150ca321b3dd8aa1a2b69b5f411a220e144f" }
 }
