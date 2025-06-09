@@ -15,6 +15,9 @@ return {
     "EdenEast/nightfox.nvim"
   },
   {
+    "Mofiqul/vscode.nvim"
+  },
+  {
     "jvsluis/gedit.nvim"
   },
 }
