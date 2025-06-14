@@ -26,7 +26,7 @@ require("lazy").setup("plugins")
 
 -- Set colour
 vim.opt.termguicolors = true
-vim.cmd [[colorscheme dayfox]]
+vim.cmd [[colorscheme light-chromeclipse]]
 -- vim.cmd [[colorscheme gedit]]
 -- vim.cmd [[colorscheme delek]]
 -- vim.cmd [[colorscheme darkblue]]
@@ -70,3 +70,5 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     vim.lsp.buf.format { async = false }
   end
 })
+
+vim.diagnostic.config({ virtual_text = false }) -- or disable LSP

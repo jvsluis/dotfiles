@@ -1,9 +1,11 @@
 require('lualine').setup {
   options = {
     icons_enabled = true,
-    theme = 'onelight',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
+    theme = 'auto',
+    -- component_separators = { left = '', right = ''},
+    component_separators = { left = '', right = ''},
+    -- section_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
     disabled_filetypes = {
       statusline = {},
       winbar = {},
