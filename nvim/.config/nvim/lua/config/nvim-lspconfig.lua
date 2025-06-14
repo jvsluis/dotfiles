@@ -2,10 +2,20 @@
 require("mason").setup()
 require("mason-lspconfig").setup {
   ensure_installed = { "pyright", "clangd" },
+  automatic_enable = false,
 }
 
 -- Setup language servers.
 local lspconfig = require('lspconfig')
+
+lspconfig.clangd.setup{
+  on_attach = function(client, bufnr)
+    if client.server_capabilities.semanticTokensProvider then
+      client.server_capabilities.semanticTokensProvider = nil
+    end
+  end,
+}
+
 -- lspconfig.pyright.setup {}
 -- lspconfig.clangd.setup{
 --   cmd = { 'clangd' },
@@ -26,6 +36,7 @@ local lspconfig = require('lspconfig')
 vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('UserLspConfig', {}),
   callback = function(ev)
+
     -- Enable completion triggered by <c-x><c-o>
     vim.bo[ev.buf].omnifunc = 'v:lua.vim.lsp.omnifunc'
 
