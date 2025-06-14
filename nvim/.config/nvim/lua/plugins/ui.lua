@@ -18,6 +18,12 @@ return {
     "Mofiqul/vscode.nvim"
   },
   {
+    "nickkadutskyi/jb.nvim"
+  },
+  {
+    "josebalius/vim-light-chromeclipse"
+  },
+  {
     "jvsluis/gedit.nvim"
   },
 }
